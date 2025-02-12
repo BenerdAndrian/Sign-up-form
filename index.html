@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container1">
+        <img src="theme.jpg" alt="theme">
+        <span class="logoName">
+            <img class="logo" src="odin-lined.png" alt="logo">
+            <span>ODIN</span>
+        </span>
+    
+        <div class="container2">
+            <span class="text">
+                <p class="normalText">This is not a real online service! You know you need something like this in your life to help you realize the deepest dreams.Sign up now to get started. <br>
+                </p>
+                <p style="margin-top:2rem;margin-bottom:4rem;" class="normalText">You know you want to.</p>
+            </span>
+           <div>
+            <form method="GET">
+                <div class="form">
+                    <p class="normalText">Let's do this!</p>
+                    <div class="flexPart1">
+                        <div class="grouping">
+                            <label for="Fname">First Name:</label>
+                            <input type="text" id="Fname" name="first-name" required>
+                        </div>
+                       <div class="grouping">
+                        <label for="Lname">Last Name:</label>
+                        <input type="text" id="Lname" name="last-name" required>
+                       </div>
+                       
+                    </div>
+            
+                    <div class="flexPart2">
+                        <div class="grouping">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                       <div class="grouping">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phoneNumber" required>
+                       </div>
+                        
+                    </div>
+            
+                    <div class="flexPart3">
+                        <div class="grouping">
+                            <label for="passwrd">Password:</label>
+                            <input type="password" id="passwrd" name="password" required>
+                        </div>
+                       <div class="grouping">
+                        <label for="confirm">Confirm Password:</label>
+                        <input type="password" id="confirm" name="passwordConfirm" required>
+                       </div>
+                       
+                    </div>
+                </div>
+                
+                <button class="accountCreate">Create Account</button>
+            </form>
+        
+           
+           
+            
+            <p style="display:none" class="note"></p>
+            <p style="margin-left:4rem;margin-top:2rem;" class="smallText">Already have an account?<span style="color:rgb(90, 165, 226);margin-left:0.5rem;cursor:pointer">Log in</span></p>
+        </div>
+    </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
